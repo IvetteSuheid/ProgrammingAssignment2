@@ -18,7 +18,7 @@ makeCacheMatrix <- function(x = matrix()) {
 }
 
 
-## #This function calculates the inverse of the special "vector" created in makeCacheMatrix.
+## This function calculates the inverse of the special "vector" created in makeCacheMatrix.
 #It first checks if the inverse has already been calculated.
 #If so, it gets the inverse from the cache and skips the computation. 
 #Otherwise, it calculates the inverse of x 
